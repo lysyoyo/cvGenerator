@@ -1,0 +1,15 @@
+.hero {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+
+    /*  a enlewver */
+    height: 70vh;
+  }
+  
+  .hero h1 span {
+    color: #007bff;
+    background-image: linear-gradient(to right, #0dcaf0, #6610f2);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  

@@ -1,0 +1,36 @@
+/* src/layouts/EditorLayout.css */
+.editor-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .editor-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .editor-body {
+    display: flex;
+    flex: 1;
+    margin-top: 56px; /* Adjust if the header height changes */
+  }
+  
+  .sidebar {
+    width: 200px; /* Adjust as needed */
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 56px; /* Adjust if the header height changes */
+    bottom: 0;
+    overflow-y: auto;
+  }
+  
+  .editor-content {
+    margin-left: 200px; /* Same as sidebar width */
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  

@@ -1,0 +1,30 @@
+/* src/components/Header/EditorHeader.css */
+/* Ajoutez vos styles spécifiques ici */
+.editor-header {
+    height: 56px; /* Ajustez selon la hauteur réelle du header */
+  }
+  
+
+  /* src/components/Sidebar/Sidebar.css */
+/* Ajoutez vos styles spécifiques ici */
+.sidebar {
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .sidebar li a:hover {
+    text-decoration: underline;
+  }
+  
